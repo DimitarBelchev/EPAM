@@ -1,0 +1,63 @@
+body {
+  margin: var(--space-size);
+}
+
+/* Header */
+header {
+  border: 1px dashed;
+}
+
+/* Main */
+main {
+  border: 1px dashed;
+}
+
+.client_stories > div {
+  border: 1px dashed;
+}
+
+.client_stories .column:first-of-type {
+  background: url("./images/cn-client-bg.jpeg") rgba(29, 14, 21, 0.3);
+  background-size: cover;
+  background-blend-mode: multiply;
+  padding: var(--space-size);
+  color: white;
+}
+
+.features > div {
+}
+
+.card-first {
+}
+
+.card-second {
+}
+
+.card-third {
+}
+
+.card-fourth {
+}
+
+.card-fifth {
+  background-color: white;
+  color: var(--secondary-color);
+}
+
+.card-six {
+  background: var(--secondary-color);
+  color: white;
+}
+
+/* Aside */
+aside {
+  display: grid;
+  grid-row: 2;
+  grid-template-rows: repeat(3, max-content);
+  border: 1px dashed;
+}
+
+/* Footer */
+footer {
+  border: 1px dashed;
+}
